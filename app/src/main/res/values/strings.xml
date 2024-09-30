@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Doces do Dia</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="usuario">Usuario</string>
+
+</resources>

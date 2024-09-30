@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195520958647",
+    "project_id": "doces-do-dia",
+    "storage_bucket": "doces-do-dia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195520958647:android:d3ccfe888dc4ea9ea77d32",
+        "android_client_info": {
+          "package_name": "com.example.docesdodia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195520958647-2as8gr09pctl9mifl736mh88srcnk0aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXt_VBa0B4hpf3n5bC00FKLE_mCaJNfKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195520958647-2as8gr09pctl9mifl736mh88srcnk0aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

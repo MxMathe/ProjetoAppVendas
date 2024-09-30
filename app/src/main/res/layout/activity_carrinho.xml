@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_carrinho.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Carrinho">
+
+    <TextView
+        android:id="@+id/textViewCarrinho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingBottom="16dp"
+        android:text="Meu Carrinho"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCarrinho"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#008502"
+        android:text="Finalizar"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:gravity="end">
+
+        <ImageView
+            android:id="@+id/ircardapio"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/cardapio" />
+
+        <ImageView
+            android:id="@+id/iconperfil"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/iconeusuario" />
+
+        <ImageView
+            android:id="@+id/ircarrinho"
+            android:layout_width="130dp"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/carrinho" />
+
+    </LinearLayout>
+
+</LinearLayout>

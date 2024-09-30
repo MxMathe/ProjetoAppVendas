@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Cardápio"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:background="#FF5722">
+
+        <ImageView
+            android:id="@+id/ircardapio"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/cardapio" />
+
+        <ImageView
+            android:id="@+id/iconperfil"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/iconeusuario" />
+
+        <ImageView
+            android:id="@+id/ircarrinho"
+            android:layout_width="130dp"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/carrinho" />
+
+    </LinearLayout>
+
+</LinearLayout>

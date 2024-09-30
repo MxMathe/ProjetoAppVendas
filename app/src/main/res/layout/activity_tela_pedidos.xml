@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPedidos">
+
+    <View
+        android:id="@+id/fundobts1"
+        android:layout_width="413dp"
+        android:layout_height="60dp"
+        android:background="@drawable/container_fundobts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telinha8"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textOla"
+        android:layout_width="414dp"
+        android:layout_height="71dp"
+        android:background="#FF7145"
+        android:text="    Olá Confeiteiro!"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textpedidos"
+        android:layout_width="345dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Veja aqui seus pedidos"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOla"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textpedidos"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintEnd_toStartOf="@+id/telinha3"
+        app:layout_constraintStart_toEndOf="@+id/telinha1"
+        app:layout_constraintTop_toBottomOf="@+id/textpedidos"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textpedidos"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telinha1"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintEnd_toStartOf="@+id/telinha6"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toEndOf="@+id/telinha4"
+        app:layout_constraintTop_toBottomOf="@+id/telinha2"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telinha3"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha7"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telinha4"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha8"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintEnd_toStartOf="@+id/telinha9"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toEndOf="@+id/telinha7"
+        app:layout_constraintTop_toBottomOf="@+id/telinha5"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/telinha9"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/container_telinhas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telinha6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textNomeP"
+        android:layout_width="90dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="s"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/telinha1"
+        app:layout_constraintTop_toTopOf="@+id/telinha1" />
+
+    <TextView
+        android:id="@+id/textDescriP"
+        android:layout_width="99dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/telinha1"
+        app:layout_constraintTop_toBottomOf="@+id/textNomeP" />
+
+    <TextView
+        android:id="@+id/textEnderecoP"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/telinha1"
+        app:layout_constraintTop_toBottomOf="@+id/textDescriP" />
+
+    <TextView
+        android:id="@+id/textDataP"
+        android:layout_width="80dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/telinha1"
+        app:layout_constraintTop_toBottomOf="@+id/textEnderecoP" />
+
+    <ImageView
+        android:id="@+id/imageViewHome"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fundobts1"
+        app:layout_constraintStart_toStartOf="@+id/fundobts1"
+        app:layout_constraintTop_toTopOf="@+id/fundobts1"
+        app:layout_constraintVertical_bias="0.533"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/imageViewAdd"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fundobts1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewPerfil"
+        app:layout_constraintStart_toEndOf="@+id/imageViewHome"
+        app:layout_constraintTop_toTopOf="@+id/fundobts1"
+        app:layout_constraintVertical_bias="0.533"
+        app:srcCompat="@drawable/maisbranco" />
+
+    <ImageView
+        android:id="@+id/imageViewPerfil"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fundobts1"
+        app:srcCompat="@drawable/iconebranco" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
