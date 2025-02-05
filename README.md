@@ -10,7 +10,7 @@
 5. Navegação: Botões de navegação entre as telas.
       
 *Tecnologias utilizadas*    
-Linguagem: Java (Android)
-Backend e Autenticação: Firebase Authentication e Firestore
+Linguagem: Java (Android).    
+Backend e Autenticação: Firebase Authentication e Firestore.
 
 Projeto em desenvolvimento para melhorias, mas já funcional.
