@@ -4,9 +4,9 @@
 *Funcionalidades*
 1. Catálogo de produtos: Exibição dos produtos disponíveis com imagens e descrição.
 2. Carrinho de compras: Adição e remoção de produtos antes da finalização do pedido.
-3. Login: Autenticação via Firebase com dois tipos de login
- 3.1 Login Usuario cliente: Pode visualizar o cardápio, adicionar produtos ao carrinho e finalizar compras.
- 3.2 Login Usuario admin: Tem acesso à página de pedidos realizados pelos clientes. 
+3. Login: Autenticação via Firebase com dois tipos de login.  
+ 3.1 Login Usuario cliente: Pode visualizar o cardápio, adicionar produtos ao carrinho e finalizar compras.   
+ 3.2 Login Usuario admin: Tem acesso à página de pedidos realizados pelos clientes.   
 5. Navegação: Botões de navegação entre as telas.
       
 *Tecnologias utilizadas*    
