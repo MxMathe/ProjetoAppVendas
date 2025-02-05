@@ -6,8 +6,9 @@
 3. Login: Autenticação via Firebase com dois tipos de login
  3.1 Login Usuario cliente: Pode visualizar o cardápio, adicionar produtos ao carrinho e finalizar compras.
  3.2 Login Usuario admin: Tem acesso à página de pedidos realizados pelos clientes. 
-5. Navegação: Botões de navegação entre as telas.   
-*Tecnologias utilizadas*
+5. Navegação: Botões de navegação entre as telas.
+      
+*Tecnologias utilizadas*    
 Linguagem: Java (Android)
 Backend e Autenticação: Firebase Authentication e Firestore
 
