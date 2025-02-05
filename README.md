@@ -1,5 +1,6 @@
 # ProjetoAppVendas
- Este é um aplicativo mobile desenvolvido para uma confeitaria, com o objetivo de aumentar o número de vendas e oferecer uma experiência mais prática para os clientes. O app permite que os usuários naveguem pelo cardápio façam pedidos , enquanto a confeitaria pode gerenciar os pedidos recebidos.   
+ Este é um aplicativo mobile desenvolvido para uma confeitaria, com o objetivo de aumentar o número de vendas e oferecer uma experiência mais prática para os clientes. O app permite que os usuários naveguem pelo cardápio façam pedidos , enquanto a confeitaria pode gerenciar os pedidos recebidos.  
+ 
 *Funcionalidades*
 1. Catálogo de produtos: Exibição dos produtos disponíveis com imagens e descrição.
 2. Carrinho de compras: Adição e remoção de produtos antes da finalização do pedido.
