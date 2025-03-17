@@ -75,10 +75,10 @@ public class Cardapio extends AppCompatActivity {
         List<ItemCardapio> itensCardapio = new ArrayList<>();
 
         ///pra colocar mais itens é só seguir o padrao///
-        itensCardapio.add(new ItemCardapio(R.drawable.bolodechocolatevulcao, "Bolo de chocolate", "Bolinho gostoso", "R$ 10,00"));
-        itensCardapio.add(new ItemCardapio(R.drawable.bolomandioca, "Nome do Item 2", "Descrição do Item 2", "R$ 15,00"));
-        itensCardapio.add(new ItemCardapio(R.drawable.bolocenoura, "Nome do Item 2", "Descrição do Item 2", "R$ 15,00"));
-        itensCardapio.add(new ItemCardapio(R.drawable.bolodepote, "Nome do Item 2", "Descrição do Item 2", "R$ 15,00"));
+        itensCardapio.add(new ItemCardapio(R.drawable.bolodechocolatevulcao, "Bolo de chocolate", "Bolo de chocolate com cobertura", "R$ 23,00"));
+        itensCardapio.add(new ItemCardapio(R.drawable.bolomandioca, "Bolo de mandioca", "Bolo tradicional feito de mandioca", "R$ 18,00"));
+        itensCardapio.add(new ItemCardapio(R.drawable.bolocenoura, "Bolo de cenoura com cobertura", "Bolo feito com massa de cenoura com cobertura de chocolate", "R$ 30,00"));
+        itensCardapio.add(new ItemCardapio(R.drawable.bolodepote, "Bolo de pote chocolate com morango", "Bolo de pote de chocolate com morango 200g ", "R$ 15,00"));
 
 
 

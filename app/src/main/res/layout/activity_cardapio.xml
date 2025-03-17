@@ -2,13 +2,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="#FFF8DC"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FF5722"
+        android:background="#FF69B4"
         android:gravity="center"
         android:padding="16dp"
         android:text="Cardápio"
