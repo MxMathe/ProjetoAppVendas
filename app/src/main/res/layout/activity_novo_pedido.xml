@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textEba"
         android:layout_width="match_parent"
-        android:layout_height="91dp"
+        android:layout_height="80dp"
         android:background="#FF69B4"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"

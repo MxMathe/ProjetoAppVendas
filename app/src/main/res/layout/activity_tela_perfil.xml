@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#FFF8DC"
     tools:context=".TelaPerfil">
 
     <View
@@ -46,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Meus Perfil"
+        android:text="Meu Perfil"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="34sp"
@@ -108,9 +108,9 @@
         android:layout_margin="20dp"
         android:backgroundTint="#F40000"
         android:padding="20dp"
-        android:text="Deslogar"
+        android:text="Sair"
         android:textAllCaps="false"
-        android:textSize="18dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/iconeemail"
         tools:layout_editor_absoluteX="20dp" />

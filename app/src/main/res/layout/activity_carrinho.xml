@@ -12,12 +12,13 @@
     <TextView
         android:id="@+id/textViewCarrinho"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:paddingBottom="16dp"
+        android:layout_height="80dp"
+        android:background="#FF69B4"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
         android:text="Meu Carrinho"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="25sp"
         android:textStyle="bold" />
 

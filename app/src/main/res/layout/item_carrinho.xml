@@ -9,21 +9,31 @@
         android:id="@+id/nomeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="@android:color/black" />
+        android:text="a"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/descricaoTextView"
+        android:text="a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
         android:textColor="@android:color/darker_gray" />
 
     <TextView
         android:id="@+id/valorTextView"
+        android:text="a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:textColor="@android:color/black" />
+        android:layout_marginTop="5dp"
+        android:textColor="#083A01"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"/>
 
 </LinearLayout>

@@ -11,6 +11,7 @@
         android:background="#FF69B4"
         android:gravity="center"
         android:padding="16dp"
+        android:fontFamily="sans-serif-medium"
         android:text="Cardápio"
         android:textAlignment="center"
         android:textColor="@android:color/white"
