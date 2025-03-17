@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFF8DC"
     tools:context=".Carrinho">
 
     <TextView
@@ -22,6 +23,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewCarrinho"
+        android:textColor="#4B0082"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
