@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
 
                     // Obtenha o ID do usuário atual
                     String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
-
                     FirebaseFirestore db = FirebaseFirestore.getInstance();
 
                     // Consulta para obter o documento do carrinho com base no ID do usuário
@@ -101,8 +100,7 @@ public class MainActivity extends AppCompatActivity {
                                 if (!querySnapshot.isEmpty()) {
                                     // O carrinho do usuário já existe, obtenha o ID do documento
                                     String carrinhoId = querySnapshot.getDocuments().get(0).getId();
-
-                                    // Use o carrinhoId conforme necessário
+                                    // Usa o carrinhoId conforme necessário
                                     // Por exemplo, para adicionar o ID do usuário ao carrinho
                                     db.collection("carrinho")
                                             .document(carrinhoId)
@@ -123,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
                                             .add(carrinhoData)
                                             .addOnSuccessListener(documentReference -> {
                                                 String carrinhoId = documentReference.getId();
-
                                                 // Use o carrinhoId conforme necessário
                                                 // Por exemplo, para adicionar o ID do usuário ao carrinho
                                                 db.collection("carrinho")
@@ -144,6 +141,15 @@ public class MainActivity extends AppCompatActivity {
                             .addOnFailureListener(e -> {
                                 // Tratar o erro de consulta do carrinho
                             });
+
+
+                } else {
+                    // Exibir mensagem de erro caso o login falhe
+                    String erro = task.getException().getMessage();
+                    Snackbar snackbar = Snackbar.make(btLogin, "Erro: " + erro, Snackbar.LENGTH_LONG);
+                    snackbar.setBackgroundTint(Color.RED);
+                    snackbar.setTextColor(Color.WHITE);
+                    snackbar.show();
                 }
             }
         });

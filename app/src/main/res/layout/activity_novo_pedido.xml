@@ -137,7 +137,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="40dp"
         android:backgroundTint="#FF4500"
-        android:text="Salvar"
+        android:text="Confirmar"
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
